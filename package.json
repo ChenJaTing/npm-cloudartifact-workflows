@@ -1,5 +1,5 @@
 {
-  "name": "@cloud/vue-demo",
+  "name": "@cloud1/vue-demo",
   "description": "",
   "version": "1.0.0",
   "author": "",
@@ -12,7 +12,8 @@
 	  "all":"npm run build && npm run rm && npm run tar"
   },
   "dependencies": {
-    "vue": "^2.2.1"
+    "vue": "^2.2.1",
+    "@cloud/vue-demo": "^1.0.0"
   },
   "devDependencies": {
     "babel-core": "^6.0.0",
