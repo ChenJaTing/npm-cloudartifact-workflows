@@ -2,7 +2,7 @@ name: npm Cloudartifact Action Install Demo
 on:
   push:
     branches:
-       master1
+       master
 jobs:
   Install-CloudArtifact-npm:
     runs-on: ubuntu-latest
@@ -29,4 +29,4 @@ jobs:
         # 推送npm二进制包到华为云CloudArtifact npm 私仓
       - name: Install npm Package 
         run: |
-          npm install
+          npm install --verbose
