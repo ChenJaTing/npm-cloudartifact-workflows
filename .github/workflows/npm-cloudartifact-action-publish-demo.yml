@@ -18,7 +18,7 @@ jobs:
 
         # 华为云CloudArtifact npm 私仓配置 
       - name: Setup HuaweiCloud npm CloudArtifact
-        uses: huaweicloud/npm-cloudartifact-action@v1.0.0
+        uses: huaweicloud/npm-cloudartifact-action@v1.0.1
         with: 
           registry_list: |
             @cloud:registry=https://devrepo.devcloud.cn-north-4.huaweicloud.com/artgalaxy/api/npm/cn-north-4_059651659b80269c0fb2c005f4583ae0_npm_0/
