@@ -2,7 +2,7 @@ name: npm Cloudartifact Action Install Demo
 on:
   push:
     branches:
-       master1
+       master
 jobs:
   Install-CloudArtifact-npm:
     runs-on: ubuntu-latest
