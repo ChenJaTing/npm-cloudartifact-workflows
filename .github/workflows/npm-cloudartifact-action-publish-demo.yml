@@ -2,7 +2,7 @@ name: npm Cloudartifact Action Publish Demo
 on:
   push:
     branches:
-       master
+       master1
 jobs:
   Publish-to-CloudArtifact-npm:
     runs-on: ubuntu-latest
