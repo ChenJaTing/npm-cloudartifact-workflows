@@ -22,11 +22,11 @@ jobs:
         with: 
           registry_list: |
             registry=https://registry.npmjs.org/
-            @cloud:registry=https://devrepo.devcloud.cn-north-4.huaweicloud.com/artgalaxy/api/npm/cn-north-4_059651659b80269c0fb2c005f4583ae0_npm_0/
+            @cloud:registry=https://devrepo.devcloud.cn-north-4.huaweicloud.com/artgalaxy/api/npm/cn-north-4_dfbdbf2e511e40fa88ba1d653358d65c_npm_0/
           auth_list: |
-            //devrepo.devcloud.cn-north-4.huaweicloud.com/artgalaxy/api/npm/cn-north-4_059651659b80269c0fb2c005f4583ae0_npm_0/:_auth=${{ secrets.NPM_AUTH }}
+            //devrepo.devcloud.cn-north-4.huaweicloud.com/artgalaxy/api/npm/cn-north-4_dfbdbf2e511e40fa88ba1d653358d65c_npm_0/:_auth=${{ secrets.NPM_AUTH }}
             
         # 推送npm二进制包到华为云CloudArtifact npm 私仓
       - name: Install npm Package 
         run: |
-          npm install --verbose
+          npm install @cloud/vue-demo@1.0.0 --verbose
